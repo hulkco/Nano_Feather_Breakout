@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Feather_Nano_Brealout)(type KiCad)(uri ${KIPRJMOD}/Feather_Nano_Brealout.pretty)(options "")(descr ""))
+  (lib (name Feather_Nano_Breakout)(type KiCad)(uri ${KIPRJMOD}/Feather_Nano_Breakout.pretty)(options "")(descr ""))
+)
