@@ -2,10 +2,10 @@
 
 **This breakout puts the Arduino Nano Family into a Feather Form Factor**
 
-![](/home/greynaga/Github/Nano_Feather_Breakout/images/pcb.jpg) 
+![](images/pcb.jpg) 
 
-![](/home/greynaga/Github/Nano_Feather_Breakout/images/01.jpg) 
+![](images/01.jpg) 
 
-![](/home/greynaga/Github/Nano_Feather_Breakout/images/02.jpg) 
+![](images/02.jpg) 
 
-![](/home/greynaga/Github/Nano_Feather_Breakout/images/03.png) 
+![](images/03.png) 
