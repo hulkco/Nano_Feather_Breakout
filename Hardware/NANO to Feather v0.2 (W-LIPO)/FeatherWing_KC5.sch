@@ -1,0 +1,621 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x15 J4
+U 1 1 5E070545
+P 4875 2450
+F 0 "J4" H 4875 1625 50  0000 C CNN
+F 1 "Conn_01x15" H 4725 3275 50  0001 C CNN
+F 2 "NANO_FEATHER_R_1:PinSocket_1x15_P2.54mm_Vertical" H 4875 2450 50  0001 C CNN
+F 3 "~" H 4875 2450 50  0001 C CNN
+	1    4875 2450
+	1    0    0    1   
+$EndComp
+Text Label 4475 1750 2    50   ~ 0
+SCK-D13
+Text Label 4475 1950 2    50   ~ 0
+AREF
+Text Label 4475 2150 2    50   ~ 0
+A1
+Text Label 4475 2250 2    50   ~ 0
+A2
+Text Label 4475 2350 2    50   ~ 0
+A3
+Text Label 4475 2450 2    50   ~ 0
+SDA-A4
+Text Label 4475 2550 2    50   ~ 0
+SCL-A5
+Text Label 4475 2950 2    50   ~ 0
+~RESET
+Text Label 4475 3050 2    50   ~ 0
+GND
+Wire Wire Line
+	4475 1750 4675 1750
+Wire Wire Line
+	4475 1950 4675 1950
+Wire Wire Line
+	4475 2650 4675 2650
+Wire Wire Line
+	4475 2150 4675 2150
+Wire Wire Line
+	4475 2250 4675 2250
+Wire Wire Line
+	4475 2350 4675 2350
+Wire Wire Line
+	4475 2450 4675 2450
+Wire Wire Line
+	4475 2550 4675 2550
+Wire Wire Line
+	4475 2750 4675 2750
+Wire Wire Line
+	4475 2950 4675 2950
+Wire Wire Line
+	4475 3150 4675 3150
+$Comp
+L power:+3.3V #PWR03
+U 1 1 5E0C8227
+P 4050 1800
+F 0 "#PWR03" H 4050 1650 50  0001 C CNN
+F 1 "+3.3V" H 4065 1973 50  0000 C CNN
+F 2 "" H 4050 1800 50  0001 C CNN
+F 3 "" H 4050 1800 50  0001 C CNN
+	1    4050 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5E0C8231
+P 4225 3150
+F 0 "#PWR07" H 4225 2900 50  0001 C CNN
+F 1 "GND" H 4230 2977 50  0000 C CNN
+F 2 "" H 4225 3150 50  0001 C CNN
+F 3 "" H 4225 3150 50  0001 C CNN
+	1    4225 3150
+	1    0    0    -1  
+$EndComp
+Text Label 4475 2050 2    50   ~ 0
+A0
+Wire Wire Line
+	4475 2050 4675 2050
+Wire Wire Line
+	4675 3050 4225 3050
+Wire Wire Line
+	4225 3050 4225 3150
+$Comp
+L power:+5V #PWR05
+U 1 1 5E0F8F56
+P 4100 2750
+F 0 "#PWR05" H 4100 2600 50  0001 C CNN
+F 1 "+5V" V 4115 2878 50  0000 L CNN
+F 2 "" H 4100 2750 50  0001 C CNN
+F 3 "" H 4100 2750 50  0001 C CNN
+	1    4100 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2750 4100 2850
+Wire Wire Line
+	4675 2850 4100 2850
+Wire Wire Line
+	4050 1850 4050 1800
+Wire Wire Line
+	4675 1850 4050 1850
+Text Label 4475 2750 2    50   ~ 0
+A7
+Text Label 4475 2650 2    50   ~ 0
+A6
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5E1F7B36
+P 9025 1050
+F 0 "#FLG01" H 9025 1125 50  0001 C CNN
+F 1 "PWR_FLAG" H 9025 1223 50  0000 C CNN
+F 2 "" H 9025 1050 50  0001 C CNN
+F 3 "~" H 9025 1050 50  0001 C CNN
+	1    9025 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9025 1050 9025 1175
+$Comp
+L power:GND #PWR08
+U 1 1 5E1FBD52
+P 9025 1175
+F 0 "#PWR08" H 9025 925 50  0001 C CNN
+F 1 "GND" H 9030 1002 50  0000 C CNN
+F 2 "" H 9025 1175 50  0001 C CNN
+F 3 "" H 9025 1175 50  0001 C CNN
+	1    9025 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5E1FDFA9
+P 9500 1050
+F 0 "#FLG02" H 9500 1125 50  0001 C CNN
+F 1 "PWR_FLAG" H 9500 1223 50  0000 C CNN
+F 2 "" H 9500 1050 50  0001 C CNN
+F 3 "~" H 9500 1050 50  0001 C CNN
+	1    9500 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 1050 9500 1175
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 5E203FDB
+P 9975 1050
+F 0 "#FLG03" H 9975 1125 50  0001 C CNN
+F 1 "PWR_FLAG" H 9975 1223 50  0000 C CNN
+F 2 "" H 9975 1050 50  0001 C CNN
+F 3 "~" H 9975 1050 50  0001 C CNN
+	1    9975 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9975 1050 9975 1175
+$Comp
+L power:+5V #PWR010
+U 1 1 5E20C1F8
+P 9975 1175
+F 0 "#PWR010" H 9975 1025 50  0001 C CNN
+F 1 "+5V" H 9990 1348 50  0000 C CNN
+F 2 "" H 9975 1175 50  0001 C CNN
+F 3 "" H 9975 1175 50  0001 C CNN
+	1    9975 1175
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR09
+U 1 1 5E20D713
+P 9500 1175
+F 0 "#PWR09" H 9500 1025 50  0001 C CNN
+F 1 "+3.3V" H 9515 1348 50  0000 C CNN
+F 2 "" H 9500 1175 50  0001 C CNN
+F 3 "" H 9500 1175 50  0001 C CNN
+	1    9500 1175
+	-1   0    0    1   
+$EndComp
+Text Label 4475 3150 2    50   ~ 0
+VIN
+Wire Wire Line
+	5825 2850 5325 2850
+Wire Wire Line
+	5825 2850 5825 2950
+Text Label 5525 2050 0    50   ~ 0
+D9
+Wire Wire Line
+	5325 2050 5525 2050
+Wire Wire Line
+	5325 1850 5525 1850
+$Comp
+L power:GND #PWR06
+U 1 1 5E13924D
+P 5825 2950
+F 0 "#PWR06" H 5825 2700 50  0001 C CNN
+F 1 "GND" H 5830 2777 50  0000 C CNN
+F 2 "" H 5825 2950 50  0001 C CNN
+F 3 "" H 5825 2950 50  0001 C CNN
+	1    5825 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5525 3050 5325 3050
+Text Label 5525 3050 0    50   ~ 0
+RX
+Wire Wire Line
+	5525 1750 5325 1750
+Wire Wire Line
+	5525 1950 5325 1950
+Wire Wire Line
+	5525 2150 5325 2150
+Wire Wire Line
+	5525 2350 5325 2350
+Wire Wire Line
+	5525 2450 5325 2450
+Wire Wire Line
+	5525 2550 5325 2550
+Wire Wire Line
+	5525 2650 5325 2650
+Wire Wire Line
+	5525 2750 5325 2750
+Wire Wire Line
+	5525 2250 5325 2250
+Wire Wire Line
+	5525 2950 5325 2950
+Wire Wire Line
+	5525 3150 5325 3150
+Text Label 5525 1750 0    50   ~ 0
+D12-MISO
+Text Label 5525 1850 0    50   ~ 0
+D11-MOSI
+Text Label 5525 1950 0    50   ~ 0
+D10
+Text Label 5525 2150 0    50   ~ 0
+D8
+Text Label 5525 2350 0    50   ~ 0
+D6
+Text Label 5525 2450 0    50   ~ 0
+D5
+Text Label 5525 2550 0    50   ~ 0
+D4
+Text Label 5525 2650 0    50   ~ 0
+D3
+Text Label 5525 2750 0    50   ~ 0
+D2
+Text Label 5525 2250 0    50   ~ 0
+D7
+Text Label 5525 2950 0    50   ~ 0
+~RESET
+Text Label 5525 3150 0    50   ~ 0
+TX
+$Comp
+L Connector_Generic:Conn_01x15 J3
+U 1 1 5E06C052
+P 5125 2450
+F 0 "J3" H 5075 1625 50  0000 L CNN
+F 1 "Conn_01x15" H 4775 3275 50  0001 L CNN
+F 2 "NANO_FEATHER_R_1:PinSocket_1x15_P2.54mm_Vertical" H 5125 2450 50  0001 C CNN
+F 3 "~" H 5125 2450 50  0001 C CNN
+	1    5125 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x12 J2
+U 1 1 5D375CC4
+P 4875 4350
+F 0 "J2" H 4875 3650 50  0000 C CNN
+F 1 "feather short" H 4675 3550 50  0000 C CNN
+F 2 "NANO_FEATHER_R_1:PinHeader_1x12_P2.54mm_Vertical" H 4875 4350 50  0001 C CNN
+F 3 "~" H 4875 4350 50  0001 C CNN
+	1    4875 4350
+	1    0    0    -1  
+$EndComp
+Text Label 4275 4950 2    50   ~ 0
+VIN
+Text Label 4425 4850 0    50   ~ 0
+EN
+Text Label 4425 4750 0    50   ~ 0
+VUSB
+Text Label 4425 4650 0    50   ~ 0
+D10
+Text Label 4425 4550 0    50   ~ 0
+D9
+Text Label 4425 4450 0    50   ~ 0
+D8
+Text Label 4425 4350 0    50   ~ 0
+D6
+Text Label 4425 4250 0    50   ~ 0
+D5
+Text Label 4425 4150 0    50   ~ 0
+D4
+Text Label 4425 4050 0    50   ~ 0
+D3
+Wire Wire Line
+	4675 4850 4425 4850
+Wire Wire Line
+	4675 4650 4425 4650
+Wire Wire Line
+	4675 4550 4425 4550
+Wire Wire Line
+	4675 4450 4425 4450
+Wire Wire Line
+	4675 4350 4425 4350
+Wire Wire Line
+	4675 4250 4425 4250
+Wire Wire Line
+	4675 4150 4425 4150
+Wire Wire Line
+	4675 4050 4425 4050
+Wire Wire Line
+	4675 3950 4425 3950
+Wire Wire Line
+	4675 3850 4425 3850
+Wire Wire Line
+	4275 4750 4675 4750
+$Comp
+L power:+5V #PWR04
+U 1 1 5E1A8183
+P 4275 4750
+F 0 "#PWR04" H 4275 4600 50  0001 C CNN
+F 1 "+5V" V 4290 4878 50  0000 L CNN
+F 2 "" H 4275 4750 50  0001 C CNN
+F 3 "" H 4275 4750 50  0001 C CNN
+	1    4275 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5325 5050 5800 5050
+Wire Wire Line
+	5800 5050 5800 4950
+Text Label 5525 3850 0    50   ~ 0
+D2
+Wire Wire Line
+	5675 5250 5325 5250
+Wire Wire Line
+	5675 5350 5675 5250
+$Comp
+L power:GND #PWR02
+U 1 1 5D3787E4
+P 5800 4950
+F 0 "#PWR02" H 5800 4700 50  0001 C CNN
+F 1 "GND" H 5805 4777 50  0000 C CNN
+F 2 "" H 5800 4950 50  0001 C CNN
+F 3 "" H 5800 4950 50  0001 C CNN
+	1    5800 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR01
+U 1 1 5D37877D
+P 5675 5350
+F 0 "#PWR01" H 5675 5200 50  0001 C CNN
+F 1 "+3.3V" H 5690 5523 50  0000 C CNN
+F 2 "" H 5675 5350 50  0001 C CNN
+F 3 "" H 5675 5350 50  0001 C CNN
+	1    5675 5350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5525 3850 5325 3850
+Wire Wire Line
+	5525 3950 5325 3950
+Wire Wire Line
+	5525 4050 5325 4050
+Wire Wire Line
+	5525 4150 5325 4150
+Wire Wire Line
+	5525 4250 5325 4250
+Wire Wire Line
+	5525 4350 5325 4350
+Wire Wire Line
+	5525 4450 5325 4450
+Wire Wire Line
+	5525 4550 5325 4550
+Wire Wire Line
+	5525 4650 5325 4650
+Wire Wire Line
+	5525 4750 5325 4750
+Wire Wire Line
+	5525 4850 5325 4850
+Wire Wire Line
+	5525 4950 5325 4950
+Wire Wire Line
+	5525 5150 5325 5150
+Wire Wire Line
+	5525 5350 5325 5350
+Text Label 5525 3950 0    50   ~ 0
+TX
+Text Label 5525 4050 0    50   ~ 0
+RX
+Text Label 5525 4450 0    50   ~ 0
+A7
+Text Label 5525 4550 0    50   ~ 0
+A6
+Text Label 5525 4650 0    50   ~ 0
+A3
+Text Label 5525 4750 0    50   ~ 0
+A2
+Text Label 5525 4850 0    50   ~ 0
+A1
+Text Label 5525 4950 0    50   ~ 0
+A0
+Text Label 5525 5150 0    50   ~ 0
+NC
+Text Label 5525 5350 2    50   ~ 0
+~RESET
+$Comp
+L Connector_Generic:Conn_01x16 J1
+U 1 1 5D375C76
+P 5125 4550
+F 0 "J1" H 5125 3650 50  0000 C CNN
+F 1 "feather long" H 4950 3575 50  0000 C CNN
+F 2 "NANO_FEATHER_R_1:PinHeader_1x16_P2.54mm_Vertical" H 5125 4550 50  0001 C CNN
+F 3 "~" H 5125 4550 50  0001 C CNN
+	1    5125 4550
+	-1   0    0    -1  
+$EndComp
+Text Label 4425 3950 2    50   ~ 0
+SCL-A5
+Text Label 4425 3850 2    50   ~ 0
+SDA-A4
+Text Label 5525 4250 0    50   ~ 0
+D11-MOSI
+Text Label 5525 4150 0    50   ~ 0
+D12-MISO
+Text Label 5525 4350 0    50   ~ 0
+SCK-D13
+Text Notes 5925 2450 1    50   ~ 0
+~
+Text Notes 5900 2650 2    50   ~ 0
+PWM
+Text Notes 6175 1750 2    50   ~ 0
+PWM
+Text Notes 5900 2450 2    50   ~ 0
+PWM
+Text Notes 5900 2350 2    50   ~ 0
+PWM
+Text Notes 5900 2050 2    50   ~ 0
+PWM
+Text Notes 5900 1950 2    50   ~ 0
+PWM
+NoConn ~ 4675 1950
+NoConn ~ 5325 2250
+NoConn ~ 5325 5150
+NoConn ~ 4675 4850
+$Comp
+L Graphic:Extra U1
+U 1 1 5E2BEF7F
+P 7075 1800
+F 0 "U1" H 7215 1846 50  0000 L CNN
+F 1 "Feather_Cu" H 7215 1755 50  0000 L CNN
+F 2 "NANO_FEATHER_R_1:Feather_CU" H 7075 1800 50  0001 C CNN
+F 3 "" H 7075 1800 50  0001 C CNN
+	1    7075 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Extra U2
+U 1 1 5E2BF776
+P 7075 2100
+F 0 "U2" H 7215 2146 50  0000 L CNN
+F 1 "Feather_Silks" H 7215 2055 50  0000 L CNN
+F 2 "NANO_FEATHER_R_1:Feather_Silks" H 7075 2100 50  0001 C CNN
+F 3 "" H 7075 2100 50  0001 C CNN
+	1    7075 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Extra U3
+U 1 1 5E2BFB4E
+P 7075 2400
+F 0 "U3" H 7215 2446 50  0000 L CNN
+F 1 "KiCadLogo" H 7215 2355 50  0000 L CNN
+F 2 "NANO_FEATHER_R_1:Ki-2500" H 7075 2400 50  0001 C CNN
+F 3 "" H 7075 2400 50  0001 C CNN
+	1    7075 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Extra U4
+U 1 1 5E2C0E92
+P 7075 2700
+F 0 "U4" H 7215 2746 50  0000 L CNN
+F 1 "Moon_Firma" H 7215 2655 50  0000 L CNN
+F 2 "NANO_FEATHER_R_1:Moon_Firma_SilkS" H 7075 2700 50  0001 C CNN
+F 3 "" H 7075 2700 50  0001 C CNN
+	1    7075 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Extra U5
+U 1 1 5E2C0E9C
+P 7075 3000
+F 0 "U5" H 7215 3046 50  0000 L CNN
+F 1 "Feather_Silks" H 7215 2955 50  0000 L CNN
+F 2 "NANO_FEATHER_R_1:Moon_The_Shield_SilkS" H 7075 3000 50  0001 C CNN
+F 3 "" H 7075 3000 50  0001 C CNN
+	1    7075 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Extra U6
+U 1 1 5E2C0EA6
+P 7075 3300
+F 0 "U6" H 7215 3346 50  0000 L CNN
+F 1 "KiCadLogo" H 7215 3255 50  0000 L CNN
+F 2 "NANO_FEATHER_R_1:OSHW-Logo2_7.3x6mm_SilkScreen" H 7075 3300 50  0001 C CNN
+F 3 "" H 7075 3300 50  0001 C CNN
+	1    7075 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 5E23D639
+P 3250 3450
+F 0 "J5" H 3330 3396 50  0000 L CNN
+F 1 "Conn_01x02" H 3330 3351 50  0001 L CNN
+F 2 "NANO_FEATHER_R_1:JST-PH_S2B-PH-SM4-TB" H 3250 3450 50  0001 C CNN
+F 3 "~" H 3250 3450 50  0001 C CNN
+	1    3250 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3450 2925 3450
+Wire Wire Line
+	3050 3550 2925 3550
+$Comp
+L power:GND #PWR011
+U 1 1 5E251C4B
+P 2925 3550
+F 0 "#PWR011" H 2925 3300 50  0001 C CNN
+F 1 "GND" H 2930 3377 50  0000 C CNN
+F 2 "" H 2925 3550 50  0001 C CNN
+F 3 "" H 2925 3550 50  0001 C CNN
+	1    2925 3550
+	1    0    0    -1  
+$EndComp
+Text Label 2925 3450 2    50   ~ 0
+VIN
+$Comp
+L Graphic:Extra U7
+U 1 1 5E2696B4
+P 7925 1775
+F 0 "U7" H 8065 1821 50  0000 L CNN
+F 1 "Feather_Cu" H 8065 1730 50  0000 L CNN
+F 2 "NANO_FEATHER_R_1:Feather_CU" H 7925 1775 50  0001 C CNN
+F 3 "" H 7925 1775 50  0001 C CNN
+	1    7925 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Extra U8
+U 1 1 5E269B67
+P 7950 2400
+F 0 "U8" H 8090 2446 50  0000 L CNN
+F 1 "KiCadLogo" H 8090 2355 50  0000 L CNN
+F 2 "NANO_FEATHER_R_1:Ki-2500" H 7950 2400 50  0001 C CNN
+F 3 "" H 7950 2400 50  0001 C CNN
+	1    7950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Extra U9
+U 1 1 5E26B47E
+P 7950 2700
+F 0 "U9" H 8090 2746 50  0000 L CNN
+F 1 "Moon_Firma" H 8090 2655 50  0000 L CNN
+F 2 "NANO_FEATHER_R_1:Moon_Firma_SilkS" H 7950 2700 50  0001 C CNN
+F 3 "" H 7950 2700 50  0001 C CNN
+	1    7950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Extra U10
+U 1 1 5E26CA20
+P 7950 3000
+F 0 "U10" H 8090 3046 50  0000 L CNN
+F 1 "Feather_Silks" H 8090 2955 50  0000 L CNN
+F 2 "NANO_FEATHER_R_1:Moon_The_Shield_SilkS" H 7950 3000 50  0001 C CNN
+F 3 "" H 7950 3000 50  0001 C CNN
+	1    7950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Extra U11
+U 1 1 5E26D0ED
+P 7950 3300
+F 0 "U11" H 8090 3346 50  0000 L CNN
+F 1 "KiCadLogo" H 8090 3255 50  0000 L CNN
+F 2 "NANO_FEATHER_R_1:OSHW-Logo2_7.3x6mm_SilkScreen" H 7950 3300 50  0001 C CNN
+F 3 "" H 7950 3300 50  0001 C CNN
+	1    7950 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4275 4950 4475 4950
+$Comp
+L Device:Jumper_NC_Small JP1
+U 1 1 5E2A9A17
+P 4575 4950
+F 0 "JP1" H 4575 4875 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 4575 5071 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 4575 4950 50  0001 C CNN
+F 3 "~" H 4575 4950 50  0001 C CNN
+	1    4575 4950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
