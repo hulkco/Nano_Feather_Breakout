@@ -63,5 +63,5 @@ fp-info-cache
 *.csv
 
 # MacOs temporary files
-*.DS_Storage
-.DS_Storage
+*.DS_Store
+.DS_Store
