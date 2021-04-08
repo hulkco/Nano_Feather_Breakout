@@ -61,3 +61,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# MacOs temporary files
+*.DS_Storage
+.DS_Storage
